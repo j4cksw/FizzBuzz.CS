@@ -24,27 +24,9 @@ public class FizzBuzzTest()
     }
 
     [Test]
-    public void Test_3_Return_fizz()
-    {
-        Assert.AreEqual("fizz", f.Say(3));
-    }
-
-    [Test]
     public void Test_5_Return_buzz()
     {
         Assert.AreEqual("buzz", f.Say(5));
-    }
-
-    [Test]
-    public void Test_6_Return_fizz()
-    {
-        Assert.AreEqual("fizz", f.Say(6));
-    }
-
-    [Test]
-    public void Test_9_Return_fizz()
-    {
-        Assert.AreEqual("fizz", f.Say(9));
     }
 
     [Test]
