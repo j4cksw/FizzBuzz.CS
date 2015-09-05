@@ -2,9 +2,10 @@ public class FizzBuzz()
 {
     public string Say(int arabic)
     {
-        if( arabic == 5 )
+        BuzzRule buzzRule = new BuzzRule();
+        if( buzzRule.isAccept(arabic) )
         {
-            return "buzz"; 
+            return buzzRule.Say();
         }
         if( arabic == 3 )
         {
