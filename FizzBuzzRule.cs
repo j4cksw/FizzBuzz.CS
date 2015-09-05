@@ -10,6 +10,6 @@ public class FizzBuzzRule : Rule
 
     public string Say()
     {
-        return "fizzbuzz";
+        return fizzRule.Say() + buzzRule.Say();
     }
 }
