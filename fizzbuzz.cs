@@ -2,10 +2,10 @@ public class FizzBuzz()
 {
     public string Say(int arabic)
     {
-        BuzzRule buzzRule = new BuzzRule();
-        if( buzzRule.isAccept(arabic) )
+        []Rule rules = new []Rule{ new BuzzRule()};
+        if( rules[0].isAccept(arabic) )
         {
-            return buzzRule.Say();
+            return rules[0].Say();
         }
         FizzRule fizzRule = new FizzRule();
         if( fizzRule.isAccept(arabic) )
