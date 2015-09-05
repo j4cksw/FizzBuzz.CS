@@ -7,9 +7,10 @@ public class FizzBuzz()
         {
             return buzzRule.Say();
         }
-        if( arabic == 3 )
+        FizzRule fizzRule = new FizzRule();
+        if( fizzRule.isAccept(arabic) )
         {
-            return "fizz";
+            return fizzrule.Say();
         }
         return arabic.ToString();
     }
