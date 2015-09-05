@@ -23,4 +23,9 @@ public class FizzBuzzTest()
         Assert.AreEqual("2", f.Say(2));
     }
 
+    [Test]
+    public void Test_15_Return_fizzbuzz()
+    {
+        Assert.AreEqual("fizzbuzz", f.Say(15));
+    }
 }
