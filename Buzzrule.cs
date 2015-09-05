@@ -1,4 +1,4 @@
-public class Buzzrule
+public class Buzzrule : Rule
 {
     public boolean IsAccept(int arabic)
     {
