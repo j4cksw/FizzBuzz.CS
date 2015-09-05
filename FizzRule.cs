@@ -1,4 +1,4 @@
-public class FizzRule()
+public class FizzRule : Rule
 {
     public boolean IsAccept(int arabic)
     {
