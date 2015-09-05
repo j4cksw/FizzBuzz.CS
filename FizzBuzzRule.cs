@@ -1,8 +1,11 @@
 public class FizzBuzzRule : Rule
 {
+    Rule fizzRule = new FizzRule();
+    Rule buzzRule = new BuzzRule();
+
     public bool IsAccept(int arabic)
     {
-        return arabic == 15 || arabic == 30 || arabic == 45;
+        return fizzRule.IsAccept(arabic) && buzzRule.IsAccept(arabic);
     }
 
     public string Say()
