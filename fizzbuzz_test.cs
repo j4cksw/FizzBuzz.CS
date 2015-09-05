@@ -46,4 +46,10 @@ public class FizzBuzzTest()
     {
         Assert.AreEqual("fizz", f.Say(9));
     }
+
+    [Test]
+    public void Test_10_Return_buzz()
+    {
+        Assert.AreEqual("buzz", f.Say(10));
+    }
 }
