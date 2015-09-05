@@ -1,5 +1,5 @@
 public interface Rule
 {
-    boolean IsAccept(int arabic);
+    bool IsAccept(int arabic);
     string Say();
 }

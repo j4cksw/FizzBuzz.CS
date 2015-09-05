@@ -1,6 +1,6 @@
-public class Buzzrule : Rule
+public class BuzzRule : Rule
 {
-    public boolean IsAccept(int arabic)
+    public bool IsAccept(int arabic)
     {
         return arabic == 5;
     }

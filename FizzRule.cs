@@ -1,6 +1,6 @@
 public class FizzRule : Rule
 {
-    public boolean IsAccept(int arabic)
+    public bool IsAccept(int arabic)
     {
         return  arabic == 3;
     }
