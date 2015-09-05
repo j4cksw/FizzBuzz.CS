@@ -2,7 +2,7 @@ public class FizzBuzz
 {
     public string Say(int arabic)
     {
-        Rule[] rules = new Rule[]{ new BuzzRule(), new FizzRule()};
+        Rule[] rules = new Rule[]{ new FizzBuzzRule(), new BuzzRule(), new FizzRule()};
 
         foreach(Rule rule in rules)
         {
